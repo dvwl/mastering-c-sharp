@@ -12,6 +12,8 @@ public delegate void SystemControl();
 public delegate void QuickCheck();
 public delegate void SpacecraftCheck();
 
+public delegate void SpecificFuelCheck(string message);
+
 class Spacecraft
 {
 	public static void GeneralCheck() => Console.WriteLine("General spacecraft check complete.");
@@ -57,6 +59,15 @@ class Program
 
 		// Invoke the anonymous method
 		fuelCheck();
+
+		// Using a lambda expression for a quick fuel check
+		SpecificFuelCheck specificFuelCheck = (args) => 
+		{
+			Console.WriteLine($"Performing specific fuel check: {args}.");
+		};
+
+		// Invoke the anonymous method with lambda expression
+		specificFuelCheck("Fuel levels stable");
 
 		Spacecraft spacecraft = new();
 
