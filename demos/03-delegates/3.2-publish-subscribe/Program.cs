@@ -12,41 +12,41 @@ class Stock
 	public event PriceChangedHandler PriceChanged;
 
 	public void UpdatePrice(decimal newPrice)
-    {
-        if (Price != newPrice)
-        {
-            Price = newPrice;
-            // Notify subscribers about the price change
-            OnPriceChanged();
-        }
-    }
+	{
+		if (Price != newPrice)
+		{
+			Price = newPrice;
+			// Notify subscribers about the price change
+			OnPriceChanged();
+		}
+	}
 
 	protected virtual void OnPriceChanged()
-    {
-        if (PriceChanged != null)
-        {
-            PriceChanged(this); // Pass the stock object to the subscribers
-        }
-    }
+	{
+		if (PriceChanged != null)
+		{
+			PriceChanged(this); // Pass the stock object to the subscribers
+		}
+	}
 }
 
 class StockObserver
 {
-    private string _name;
-    public StockObserver(string name)
-    {
-        _name = name;
-    }
+	private string _name;
+	public StockObserver(string name)
+	{
+		_name = name;
+	}
 
 	public void Subscribe(Stock stock)
-    {
-        stock.PriceChanged += HandlePriceChange;
-    }
+	{
+		stock.PriceChanged += HandlePriceChange;
+	}
 
 	private void HandlePriceChange(Stock stock)
-    {
-        Console.WriteLine($"{_name} received notification: {stock.Symbol} new price is {stock.Price}");
-    }
+	{
+		Console.WriteLine($"{_name} received notification: {stock.Symbol} new price is {stock.Price}");
+	}
 }
 
 class Program
@@ -54,19 +54,19 @@ class Program
 	static void Main(string[] args)
 	{
 		Stock myStock = new(){
-            Symbol = "DAN",
-            Price = 1500m
-        }; 
+			Symbol = "DAN",
+			Price = 1500m
+		}; 
 
 		StockObserver observer1 = new("Observer 1"); 
-        StockObserver observer2 = new("Observer 2");
-        
-        // Both observers subscribe to price changes
-        observer1.Subscribe(myStock);
-        observer2.Subscribe(myStock);
+		StockObserver observer2 = new("Observer 2");
+		
+		// Both observers subscribe to price changes
+		observer1.Subscribe(myStock);
+		observer2.Subscribe(myStock);
 
 		// Update the stock price, which triggers the event
-        myStock.UpdatePrice(1520m);
-        myStock.UpdatePrice(1530m);
+		myStock.UpdatePrice(1520m);
+		myStock.UpdatePrice(1530m);
 	}
 }
