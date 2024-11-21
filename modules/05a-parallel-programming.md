@@ -2,7 +2,7 @@
 lab:
     title: 'Exploring Parallel Programming in C#'
 ---
-# Module 05: Exploring Parallel Programming in C#
+# Module 05a: Exploring Parallel Programming in C#
 In this module, you will learn how to utilize parallel programming to improve performance in C#. You'll explore the benefits of parallel execution and identify common challenges such as race conditions, as well as techniques to mitigate these issues.
 
 ## Exercise: Handling Shared Resources in Parallel Programming
