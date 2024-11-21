@@ -1,52 +1,59 @@
 ---
 lab:
-    title: 'Exploring Functional Programming in a Futuristic City'
+    title: 'Exploring Parallel Programming in C#'
 ---
-# Module 04: Exploring Functional Programming in a Futuristic City
-In this module, you will learn how to utilize lambda expressions to perform operations on collections effectively. You'll explore how to enhance your programming capabilities by employing functional programming techniques in a futuristic context.
+# Module 05: Exploring Parallel Programming in C#
+In this module, you will learn how to utilize parallel programming to improve performance in C#. You'll explore the benefits of parallel execution and identify common challenges such as race conditions, as well as techniques to mitigate these issues.
 
-## Exercise: Managing Transportation Methods in a Futuristic City
-Imagine a futuristic city with various modes of transportation, including hovercars, drones, and hyperloop trains. Each mode of transportation has different attributes such as speed, capacity, and fuel efficiency. In this exercise, you will create a collection of these transportation methods and use lambda expressions to filter, sort, and manipulate the data.
+## Exercise: Handling Shared Resources in Parallel Programming
+Imagine you are building a futuristic city simulation where various systems (like transportation, energy, and infrastructure) need to update shared counters concurrently. Understanding the challenges of shared resource access in a parallelized context will help you design robust solutions.
 
 **Instructions:**
-1. **Define a Transportation Class:** Create a class called `Transportation` with properties such as `Name`, `Speed`, `Capacity`, and `FuelEfficiency`. Make the class immutable by using readonly properties and a constructor to set the values.
-2. **Create a List of Transportation Methods:** Instantiate a list with several transportation objects.
-3. **Use Lambda Expressions:**
-   - Filter the list to find transportation methods with a speed greater than 200 mph.
-   - Sort the filtered list by fuel efficiency in descending order.
-   - Create a string representation of each method in the final list.
 
-Example:
+1. **Understand the Problem:** When multiple threads or tasks modify a shared resource, a race condition can occur, leading to unpredictable results.
+
+2. **Explore the Issue:**
+   - Write a program that demonstrates a race condition by incrementing a shared counter in parallel.
+
+3. **Mitigate the Issue:**
+   - Use thread-safe mechanisms such as `Interlocked` to safely update the shared resource.
+
+### Example: Race Condition and Mitigation
+
 ```csharp
-class Transportation
-{
-    public string Name { get; set; }
-    public double Speed { get; set; }           // Speed in mph
-    public int Capacity { get; set; }           // Number of passengers
-    public double FuelEfficiency { get; set; }  // MPG
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
-    public override string ToString()
+class Program
+{
+    static void Main(string[] args)
     {
-        return $"{Name}: {Speed} mph, Capacity: {Capacity}, Fuel Efficiency: {FuelEfficiency} MPG";
+        // Shared counter variable
+        int sharedCounter = 0;
+
+        // Simulating parallel tasks with race condition
+        Parallel.For(0, 1000, i =>
+        {
+            // Uncomment the next line to observe the race condition
+            // sharedCounter++;
+
+            // Thread-safe increment using Interlocked
+            Interlocked.Increment(ref sharedCounter);
+        });
+
+        Console.WriteLine($"Final Counter Value: {sharedCounter}");
+        // The result with Interlocked will be 1000. Without it, it might be less due to race conditions.
     }
 }
-
-...
-
-// Create a list of transportation methods
-List<Transportation> transports = new List<Transportation>
-{
-    new Transportation("Hovercar A", 220, 4, 30),
-    new Transportation("Drone B", 150, 2, 50),
-    new Transportation("Hyperloop C", 300, 50, 100),
-    new Transportation("Hovercar D", 180, 4, 25),
-    new Transportation("Drone E", 200, 1, 70)
-};
 ```
 
 **Expected Outcome:**
-- Learners will successfully create a collection of transportation methods and apply lambda expressions to filter and sort the data.
-- They will understand how to leverage functional programming concepts to manipulate collections in a concise and readable manner.
+Learners will understand the concept of race conditions and why they occur.
+They will successfully mitigate race conditions using thread-safe constructs like Interlocked.
 
-**Next Steps:** 
-Experiment further by adding more attributes to the `Transportation` class, creating additional filtering and sorting criteria, or incorporating user input to enhance interactivity.
+**Next Steps:**
+Extend the program to explore other thread-safety mechanisms such as lock or Monitor.
+Implement additional scenarios where shared resources need to be protected, like maintaining a collection of log entries or managing a producer-consumer queue.
+
+Happy experimenting.
