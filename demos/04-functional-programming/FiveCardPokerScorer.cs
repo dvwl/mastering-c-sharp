@@ -5,7 +5,7 @@ namespace CsharpPoker;
 public class FiveCardPokerScorer
 {
 	#region Spoiler
-	// highCard = nextCard.Value > highCardValue ? nextCard : highCard;
+	// highCard = nextCard.Value > highCard.Value ? nextCard : highCard;
 
 	// public static Card HighCard(IEnumerable<Card> cards) => cards.Aggregate((highCard, nextCard) => nextCard.Value > highCard.Value ? nextCard : highCard);
 	#endregion
