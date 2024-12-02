@@ -1,0 +1,502 @@
+[
+	{
+		"DeviceID": 1,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 2,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 3,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 4,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 5,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 6,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 7,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 8,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 9,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 10,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 11,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 12,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 13,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 14,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 15,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 16,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 17,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 18,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 19,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 20,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 21,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 22,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 23,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 24,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 25,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 26,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 27,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 28,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 29,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 30,
+		"DeviceType": 6,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 31,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 32,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 33,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 34,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 35,
+		"DeviceType": 6,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 36,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 37,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 38,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 39,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 40,
+		"DeviceType": 6,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 41,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 42,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 43,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 44,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 45,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 46,
+		"DeviceType": 3,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 47,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 48,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 49,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 50,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 51,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 52,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 53,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 54,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 55,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 56,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 57,
+		"DeviceType": 3,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 58,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 59,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 60,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 61,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 62,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 63,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 64,
+		"DeviceType": 3,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 65,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 66,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 67,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 68,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 69,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 70,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 71,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 72,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 73,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 74,
+		"DeviceType": 2,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 75,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 76,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 77,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 78,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 79,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 80,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 81,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 82,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 83,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 84,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 85,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 86,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 87,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 88,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 89,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 90,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 91,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 92,
+		"DeviceType": 4,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 93,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 94,
+		"DeviceType": 5,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 95,
+		"DeviceType": 1,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 96,
+		"DeviceType": 4,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 97,
+		"DeviceType": 2,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 98,
+		"DeviceType": 5,
+		"Status": "Off"
+	},
+	{
+		"DeviceID": 99,
+		"DeviceType": 1,
+		"Status": "On"
+	},
+	{
+		"DeviceID": 100,
+		"DeviceType": 4,
+		"Status": "On"
+	}
+]
