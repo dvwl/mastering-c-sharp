@@ -3,6 +3,8 @@
 // Generic Method
 class Program
 {
+	enum Color { Red, Green, Blue }
+
 	// Define a generic method that swaps two values
 	public static void Swap<T>(ref T a, ref T b)
 	{
@@ -28,5 +30,11 @@ class Program
 		Console.WriteLine($"\nBefore swap: date1 = {date1}, date2 = {date2}");
 		Swap(ref date1, ref date2);
 		Console.WriteLine($"After swap: date1 = {date1}, date2 = {date2}");
+
+		// Example 4: Swapping enums
+		Color c1 = Color.Red, c2 = Color.Green;
+		Console.WriteLine($"\nBefore swap: c1 = {c1}, c2 = {c2}");
+		Swap(ref c1, ref c2);
+		Console.WriteLine($"After swap: c1 = {c1}, c2 = {c2}");
 	}
 }
